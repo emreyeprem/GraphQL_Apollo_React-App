@@ -4,7 +4,6 @@ import { ApolloProvider } from 'react-apollo';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Launches  from './components/Launches';
 import Launch from './components/Launch';
-import './App.css';
 import logo from './logoSpaceX.jpeg';
 
 const client = new ApolloClient({
